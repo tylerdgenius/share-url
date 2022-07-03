@@ -52,6 +52,8 @@ declare module 'share-url' {
     reddit(options: RedditOptions): string
     linkedin(options: LinkedinOptions): string
     email(options: EmailOptions): string
+    whatasapp(options: WhatsappOptions): string
+    telegram(options: TelegramOptions): string
   }
 
   const ShareUrl: IShareUrl
